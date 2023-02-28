@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <div class="custom-card">
+        <div class="form-group">
+            <input type="email" placeholder="Enter email address" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="password" placeholder="Enter password" class="form-control">
+        </div>
+
+        <a href="http://localhost:4200/authentication/emailConfirmation?token=CfDJ8KrUmZwR%2BUVKrTWs7V65YIfI8B1IKBHIRyKA0mgq%2B6IyHd2Q1icKTFsaaiUdoZ6BeXXoo7riD9cy%2BNTHCG5B%2BmBXvet1ei%2F0r0V2j5BfZ6YvQo5HEIVBeZEyI3kWCEU2m8f6sx4SNo7BoHrWunxYQSmYppAX%2B0nxdT%2BpDqhecj35rpu15E%2FvCwXsgemFQiBvUr1M027FGJHjYG1zk6VJKtyXwArrvxpl%2B3aegdx7opHnBBDq0T2KlhnRNonP0mUQJA%3D%3D&email=gelu@codeindustry.net">Confirm your account</a>
+        <button class="btn btn-block btn-primary">Login</button>
+
+        <button class="btn btn-block google-sign-in" (click)="signInHandler()">
+            <img [src]="'assets/images/google.svg'" alt="google">
+            <span>Continue with Google</span>
+            <a href=""></a>
+        </button>
+    </div>
+</div>
